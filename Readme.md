@@ -2,8 +2,8 @@
 Auto Scaling Application : Openstack libraries can be used in Python to create connection with Openstack controller. We need to create a YAML file to authenticate
 the user. The format of the YAML file is -
 
-+clouds:
-  <user>:
+clouds:
++  <user>:
     region_name: <region_name>
     auth:
       username: 
