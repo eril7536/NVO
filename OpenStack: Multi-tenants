@@ -1,5 +1,17 @@
-Objective 1
+#Objective 2 : 
 
+Auto Scaling Application : Openstack libraries can be used in Python to create connection with Openstack controller. We need to create a YAML file to authenticate
+the user. The format of the YAML file is -
 
-
-<b>Objective 2:</b>
+clouds:
+  <user>:
+    region_name: <region_name>
+    auth:
+      username: 
+      password: 
+      project_name: 
+      project_domain_name: 
+      user_domain_name: 
+      auth_url: http://192.168.56.34/identity/
+    log_file: /tmp/openstackclient_admin.log
+    log_level: debug
