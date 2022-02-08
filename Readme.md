@@ -34,7 +34,8 @@ We can initialize a connection using openstack.connect and provide the user cred
 ### Get the Running Instance :
 conn.compute.servers() can be used to get the instances currently running.
 
-### Creating a new Instance - conn.compute.create_server() can be used to create a new instance. 
+### Creating a new Instance :
+conn.compute.create_server() can be used to create a new instance. 
 ```
   Example - 
         server = conn.compute.create_server(
