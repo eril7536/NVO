@@ -3,11 +3,11 @@ Auto Scaling Application : Openstack libraries can be used in Python to create c
 the user. The format of the YAML file is -
 
 +clouds:
-+  <user>:
-+    region_name: <region_name>
-+    auth:
-+      username: 
-+      password: 
+  <user>:
+    region_name: <region_name>
+    auth:
+      username: 
+      password: 
       project_name: 
       project_domain_name: 
       user_domain_name: 
