@@ -22,7 +22,7 @@ clouds:
     log_level: debug
  ```
  
- The YAML file can placed in current directory or  ~/.config/openstack or /etc/openstack. The above are present in the <user>-openrc.sh file. 
+ The YAML file can placed in current directory or  ~/.config/openstack or /etc/openstack. The above details are present in the <user>-openrc.sh file. 
 
 ### Initialize a connection :
 We can initialize a connection using openstack.connect and provide the user credentials which are defined in the YAML file. 
