@@ -65,3 +65,11 @@ check_cpu_util() :
 instance_list = conn.compute.servers()
 num_instance = len(instance_list)
 ```
+  
+Objective 4 - Eric
+  
+  To achiever inter vn connectivity, edit the default security group allow ingress and egress traffic from anywhere to anywhere.
+  This creates a major security flaw but achieves the objective.
+  
+  For specific network mangement security groups can be created and then applied to interfaces. This is done by either editing the vm security group or the specific port security group
+  In order to achieve specific connecitivty between VMs, a rule directed at blocking traffic can be applied as a egress rule to one of the vms. This can also be a blanket rule, such as stopping traffic from accessing the internet by blocking egress traffic on all tcp and udp ports. This rule will need seperate rules allowing traffic to and from different ports if the vm is to communicate with anyone at all.
